@@ -145,176 +145,179 @@
   background-color: green;
   border-radius: 10px;
 }
-.the_text_section{
- width: 100%;
- height: 250px;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+.the_text_section {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.the_cat_section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.the_cat_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.the_text_section h1{
+.the_text_section h1 {
   font-size: 50px;
   padding: 20px;
   font-weight: 900;
 }
-.the_text_section P{
-font-size: 25px;
+.the_text_section P {
+  font-size: 25px;
   font-weight: 900;
 }
-.various_cat{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-
+.various_cat {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
-.first_con{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 8px;
-    align-items: center;
+.first_con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px;
+  align-items: center;
 }
-.first_con a{
-    font-size: 25px;
-    font-weight: 900;
-    color: blue;
-    text-decoration: none;
+.first_con a {
+  font-size: 25px;
+  font-weight: 900;
+  color: blue;
+  text-decoration: none;
 }
-.the_ima_con{
-    width:100% ;
-    display:flex ;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
+.the_ima_con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
 }
-.body_con{
-    margin-top: 30px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.468);
-
-
+.body_con {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.468);
 }
-.img_sect{
-    width: 100%;
-    height: 250px;
-    background-color: green;
-    border-radius: 20px;
-    cursor: pointer;
-
+.img_sect {
+  width: 100%;
+  height: 250px;
+  background-color: green;
+  border-radius: 20px;
+  cursor: pointer;
 }
-.img_sect:hover{
-      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.468);
-
+.img_sect:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.468);
 }
-.the_text_sec{
-    font-size: 20px;
-    font-weight: 900;
-    width: 100%;
+.the_text_sec {
+  font-size: 20px;
+  font-weight: 900;
+  width: 100%;
 }
-.the_date_sec{
-    font-size: 15px;
-    font-weight: 900;
-    display: flex;
-    justify-content: left;
-    width: 100%;
-    color: gray;
-
+.the_date_sec {
+  font-size: 15px;
+  font-weight: 900;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  color: gray;
 }
-.small_section{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
-
+.small_section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.small_con{
-    display: flex; 
-    align-items: center ;
-    gap: 20px;
-    padding: 10px;
-    overflow: hidden;
-    
-
+.small_con {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  overflow: hidden;
 }
-.the_small_img_con{
-    width: 80px;
-    height: 80px;
-    border: 2px solid  green; 
-    background-color: green;
-    border-radius: 15px;
-
+.the_small_img_con {
+  width: 80px;
+  height: 80px;
+  border: 2px solid green;
+  background-color: green;
+  border-radius: 15px;
 }
 
-
-.small_con:hover{
-    cursor: pointer;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.468);
-
+.small_con:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.468);
 }
 .small_text_con {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .small_text_con h4 {
-     font-weight: 900;
-     font-size: 20px;
-
+  font-weight: 900;
+  font-size: 20px;
 }
-.small_text_con p{
-    font-size: 10px;
-    font-weight: 700;
-    color: gray;
+.small_text_con p {
+  font-size: 10px;
+  font-weight: 700;
+  color: gray;
 }
-.Editor_sec{
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    background:linear-gradient(to left,rgb(58, 7, 100),purple,rgb(58, 7, 100));
+.Editor_sec {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(
+    to left,
+    rgb(58, 7, 100),
+    purple,
+    rgb(58, 7, 100)
+  );
 }
-.Editor_sec h1{
-    font-size: 50px;
-    font-weight: 900;
-    color: white; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.Editor_sec p{
-    font-size: 20px;
-    font-weight: 900;
-    color: white;
-
+.Editor_sec h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.the_text_section button{
-    margin: 20px;
-    width: 200px;
-    padding: 20px;
-    border-radius: 50px;
-    font-size: 20px;
-    font-weight: 900;
-    color: rgb(105, 101, 101);
-    background-color: white;
-    box-shadow: 4px 4px 8px rgb(153, 138, 138);
+.Editor_sec p {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
 }
 
-
-
-
- 
+.the_text_section button {
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(105, 101, 101);
+  background-color: white;
+  box-shadow: 4px 4px 8px rgb(153, 138, 138);
+}
+.closing_sec {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 8px black;
+  margin-top: 50px;
+}
+.closing_sec h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.closing_sec p {
+  font-size: 20px;
+  font-weight: 300;
+}
